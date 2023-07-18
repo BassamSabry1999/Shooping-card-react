@@ -1,0 +1,15 @@
+.full {
+     margin-top: 40px;
+}
+.btn {
+    margin: 5px;
+}
+@media (max-width: 786px) {
+    .full .row {
+        flex-direction: column;
+    }
+    .full .row .col-6 {
+        width: 100%;
+        margin-top: 20px;
+    } 
+}

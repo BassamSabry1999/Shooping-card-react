@@ -1,0 +1,38 @@
+.parent {
+  text-align: center;
+}
+.parent h1{
+
+  color: brown;
+  padding: 10px;
+  font-family:  sans-serif;
+  font-weight: bold;
+}
+.parent p {
+font-size: 20px;
+}
+.parent h5{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.parent ul{
+list-style: none;
+}
+.parent ul li{
+padding: 10px;
+}
+.parent button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 30%;
+    transition: 0.3s;
+}
+.parent button:hover {
+    background-color: brown;
+    color: white;
+}
+@media (max-width: 768px) {
+    .parent {
+        width: 100%;
+    }
+}
